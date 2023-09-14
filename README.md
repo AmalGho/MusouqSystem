@@ -175,7 +175,7 @@ So the benefit that each of these users will get is :
 ## the technical work
 
 - build spring boot project structure with many dependencies & database configuration.
-- work on the following classes and its relations:
+- work on the following classes and its relations with data validation:
   * User class
     - class built to manage registration and authentication of different user's role.
   * Supplier class
@@ -189,7 +189,7 @@ So the benefit that each of these users will get is :
 - create Model, Repository layer, Service layer, and Controller layer of all class list above.
 - add validation on data to maintain the integrity of data. 
 - create all type of relations m:n, 1:n, 1:1 with DTO.
-- build Auth repo, Auth service, Auth Controller for User class, and set the 1:1 relation with all system's 3 actors.
+- build Auth repo, Auth service, Auth Controller for User class, and set the 1:1 relation with all system's 3 actors. Auth responsible of user’s registration and then we can use in security with authentication and authorization. 
 - make Repository Testing using jUnit test.
 
 
