@@ -181,9 +181,13 @@ So the benefit that each of these users will get is :
   * Supplier class
     - one of the system users, business owner or product owner.
   * Product class
+    - Contains all products that suppliers added.
   * Image class
+    - Contains images of products, each image assigned to one product. 
   * Category class
+    - Contains categories of products. 
 - create Model, Repository layer, Service layer, and Controller layer of all class list above.
+- add validation on data to maintain the integrity of data. 
 - create all type of relations m:n, 1:n, 1:1 with DTO.
 - build Auth repo, Auth service, Auth Controller for User class, and set the 1:1 relation with all system's 3 actors.
 - make Repository Testing using jUnit test.
