@@ -263,7 +263,7 @@ So the benefit that each of these users will get is :
      
 
 
-
+All endpoints above users can access with authentication  and authorization. 
 
 
 
